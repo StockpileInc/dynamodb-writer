@@ -19,12 +19,12 @@ describe('writer', function () {
   })
 
   before(function createTable (done) {
-    this.timeout(5000)
+    this.timeout(10000)
     dynamodb.createTable(this.dynamodb, done)
   })
 
   after(function deleteTable (done) {
-    this.timeout(5000)
+    this.timeout(10000)
     dynamodb.deleteTable(this.dynamodb, done)
   })
 
