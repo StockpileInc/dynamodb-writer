@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/StockpileInc/dynamodb-writer.git"
   },
-  "author": "Sean Lavine",
+  "author": "Sean Lavine <lavis88@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StockpileInc/dynamodb-writer/issues"
