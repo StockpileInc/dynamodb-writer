@@ -28,7 +28,7 @@ const DynamoDbWriter = require('dynamodb-writer')
 const dynamodb = new DynamoDB({
   apiVersion: '2012-08-10'
 })
-const writer = new DynamoDbWriter(dynamodb, {table: 'my-table'})
+const writer = DynamoDbWriter.create(dynamodb, {table: 'my-table'})
 const items = []
 async.eachSeries(items, (item, cb) => {
   // Important: You must wait for callback to be called
