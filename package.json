@@ -1,0 +1,33 @@
+{
+  "name": "dynamodb-writer",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "pretest": "standard",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StockpileInc/dynamodb-writer.git"
+  },
+  "author": "Sean Lavine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StockpileInc/dynamodb-writer/issues"
+  },
+  "homepage": "https://github.com/StockpileInc/dynamodb-writer#readme",
+  "description": "Write items to a DynamoDB table in batches",
+  "dependencies": {
+    "debug": "^2.6.3"
+  },
+  "devDependencies": {
+    "async": "^2.1.5",
+    "dynalite": "^1.2.0",
+    "mocha": "^3.2.0",
+    "standard": "^9.0.2"
+  }
+}
