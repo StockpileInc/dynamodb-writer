@@ -1,8 +1,11 @@
 # dynamodb-writer
+[![Build Status][travis-image]][travis-url]
 [![js-standard-style][standard-image]][standard-url]
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard-url]: http://standardjs.com/
+[travis-image]: https://travis-ci.org/StockpileInc/dynamodb-writer.svg?branch=master
+[travis-url]: https://travis-ci.org/StockpileInc/dynamodb-writer
 
 Write items to a DynamoDB table in batches
 
