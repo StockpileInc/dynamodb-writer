@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "lib/index.js",
   "directories": {
-    "pretest": "standard",
     "test": "test"
   },
   "scripts": {
