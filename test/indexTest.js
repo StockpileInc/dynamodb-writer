@@ -5,7 +5,7 @@ const assert = require('assert')
 const async = require('async')
 const dynamodb = require('./util/dynamodb')
 
-describe('DynamoDbWriter', function () {
+describe('writer', function () {
   before(function createDynamoDbClient () {
     this.dynamodb = dynamodb.createClient()
   })
@@ -19,10 +19,12 @@ describe('DynamoDbWriter', function () {
   })
 
   before(function createTable (done) {
+    this.timeout(5000)
     dynamodb.createTable(this.dynamodb, done)
   })
 
   after(function deleteTable (done) {
+    this.timeout(5000)
     dynamodb.deleteTable(this.dynamodb, done)
   })
 
