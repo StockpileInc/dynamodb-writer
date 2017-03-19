@@ -2,12 +2,14 @@
   "name": "dynamodb-writer",
   "private": true,
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "pretest": "standard",
     "test": "test"
   },
   "scripts": {
+    "babel": "babel -d lib src",
+    "prepublish": "npm run babel",
     "test": "standard"
   },
   "repository": {
@@ -25,6 +27,8 @@
     "debug": "^2.6.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
     "standard": "^9.0.2"
   }
 }
