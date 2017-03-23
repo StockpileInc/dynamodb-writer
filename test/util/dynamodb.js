@@ -11,6 +11,8 @@ const TABLE_NAME = 'dynamodb-writer-test'
 exports.createClient = function createClient () {
   return new DynamoDB({
     apiVersion: '2012-08-10',
+    accessKeyId: 'dummy',
+    secretAccessKey: 'dummy',
     region: 'us-east-1',
     endpoint: 'http://localhost:' + PORT
   })
