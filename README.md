@@ -12,7 +12,7 @@
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard-url]: http://standardjs.com/
 
-Write items to a DynamoDB table in batches
+Write items to DynamoDB in batches
 
 ## save()
 Save an item to internal queue. On 25th item (DynamoDB maximum),

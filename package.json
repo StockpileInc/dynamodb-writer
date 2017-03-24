@@ -21,7 +21,7 @@
     "url": "https://github.com/StockpileInc/dynamodb-writer/issues"
   },
   "homepage": "https://github.com/StockpileInc/dynamodb-writer#readme",
-  "description": "Write items to a DynamoDB table in batches",
+  "description": "Write items to DynamoDB in batches",
   "dependencies": {
     "debug": "^2.6.3"
   },
@@ -34,5 +34,11 @@
     "dynalite": "^1.2.0",
     "mocha": "^3.2.0",
     "standard": "^9.0.2"
-  }
+  },
+  "keywords": [
+    "dynamodb",
+    "batch",
+    "batchwrite",
+    "batchwriteitem"
+  ]
 }
